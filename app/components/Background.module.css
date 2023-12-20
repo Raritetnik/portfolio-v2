@@ -1,0 +1,12 @@
+.sectionBG {
+  background: rgb(100,216,98);
+  background: linear-gradient(0deg, rgba(100,216,98,0.1) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,0) 70%, rgba(100,216,98,0.1) 100%);
+  margin: 5px 0;
+
+  min-height: 300px;
+}
+
+.sectionBG>* {
+  max-width: 1200px;
+  margin: 0 auto;
+}

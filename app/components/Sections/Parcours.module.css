@@ -1,0 +1,13 @@
+.sectionExperiences {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3rem;
+    padding: 3rem 0;
+
+    min-height: 300px;
+}
+
+.justifyBetween {
+    display: flex;
+    justify-content: space-between;
+}

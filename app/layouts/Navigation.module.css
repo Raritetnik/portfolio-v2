@@ -1,0 +1,38 @@
+#logoInHeader {
+    font-size: var(--font_size-TITLE);
+}
+
+#phoneInHeader {
+    justify-self: center;
+}
+
+.sectionHeader {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    width: 1200px;
+}
+
+.navigation a {
+    font-size: 1.3rem;
+}
+
+.primary {
+    color: #64D862;
+}
+
+.menu {
+    display: flex;
+    gap: .5rem;
+}
+
+.menu a {
+    padding: 1rem .5rem;
+}
+
