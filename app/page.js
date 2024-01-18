@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import Banner from "@/app/components/Sections/Banner";
-import Parcours from "@/app/components/Sections/Parcours";
-import Projects from "@/app/components/Sections/Projects";
-import Technologies from "@/app/components/Sections/Technologies";
-import Contact from "@/app/components/Sections/Contact";
+import Banner from "./components/Sections/Banner";
+import Parcours from "./components/Sections/Parcours";
+import Projects from "./components/Sections/Projects";
+import Technologies from "./components/Sections/Technologies";
+import Contact from "./components/Sections/Contact";
 
 
 export default function Home() {
