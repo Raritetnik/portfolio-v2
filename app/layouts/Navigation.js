@@ -6,11 +6,11 @@ export default function Navigation() {
               <header className={styles.navigation}>
                 <h3 id={styles.phoneInHeader}>☎️<a href="tel:4386801683">(438)680-1683</a></h3>
                 <nav className={styles.menu}>
-                    <a href="#">Accueil</a>
-                    <a href="#">À propos</a>
-                    <a href="#">Technologies</a>
-                    <a href="#">Mes projets</a>
-                    <a href="#">Contact</a>
+                    <a href="#banner">Accueil</a>
+                    <a href="#parcours">À propos</a>
+                    <a href="#technos">Technologies</a>
+                    <a href="#projets">Mes projets</a>
+                    <a href="#contact">Contact</a>
                 </nav>
               </header>
         </div>

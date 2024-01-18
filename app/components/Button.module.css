@@ -1,0 +1,15 @@
+.button {
+    background-color: var(--color_primary);
+    color: black;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: solid 2px var(--color_primary);
+    transition: .1s ease-in-out;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}

@@ -2,11 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 :root {
   --font_size-TITLE: 1.3rem;
   --font_size-TEXT: .7rem;
-  --font_size-BIGTITLE: 2rem
+  --font_size-BIGTITLE: 2rem;
+
+  --color_primary: #64D862;
+  --color_secondary: #CE8126;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,10 +19,15 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: white;
   background-color: #121212;
   font-family: 'Poppins', sans-serif;
+  transition: all .3s ease-in-out;
 }
 
 h2 {

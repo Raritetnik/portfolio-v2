@@ -1,0 +1,70 @@
+.sectionTechnologies {
+    padding: 3rem 0;
+    min-height: 300px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+@media screen and (max-width: 748px) {
+    .articles {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .sectionTechnologies {
+        padding: 3rem 2rem;
+    }
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.icons img {
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.icons {
+    margin-top: 1rem;
+    padding: .5rem 0;
+    transition: all linear !important;
+    border-left: 6px white solid;
+    border-right: 6px white solid;
+    border-radius: 25px;
+}
+.icons ul {
+    transition: transform 1.5s linear !important;
+}
+.icons li {
+    display: flex;
+    justify-content: center;
+}
+
+.technologies>span {
+    background: transparent;
+    border: 2px solid var(--color_primary);
+    color: var(--color_primary);
+    padding: .2rem .5rem;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.technoInfo article {
+    padding-bottom: 2rem;
+}
+.articles h3{
+    padding-bottom: .5rem;
+}
+
+.carrousel {
+    display: flex;
+}

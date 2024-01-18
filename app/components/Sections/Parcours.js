@@ -1,11 +1,40 @@
+'use client'
 import Background from "@/app/components/Background";
 import styles from "./Parcours.module.css";
+import { motion } from "framer-motion";
+const leftIntroPictureVariants = {
+    hide: {
+        opacity: 0,
+    },
+    show: {
+        opacity: 1,
+        transition: {
+            duration: 1,
+        },
+    },
+};
+
+const rightIntroPictureVariants = {
+    hide: {
+        opacity: 0,
+    },
+    show: {
+        opacity: 1,
+        transition: {
+            duration: 2,
+        },
+    },
+};
 
 export default function Parcours() {
     return(
       <Background>
-          <section className={styles.sectionExperiences}>
-              <div className="flex gap-2 flex-col">
+          <section className={styles.sectionExperiences} id="parcours">
+              <motion.div className="flex flex-col"
+                          initial="hide"
+                          whileInView="show"
+                          exit="hide"
+                          variants={leftIntroPictureVariants}>
                   <h2>🎓 Éducation</h2>
                   <div className="p-4">
                       <h3>Conception et Développement des sites Web</h3>
@@ -21,8 +50,12 @@ export default function Parcours() {
                           <p>2018 - 2020</p>
                       </span>
                   </div>
-              </div>
-              <div>
+              </motion.div>
+              <motion.div
+                  initial="hide"
+                  whileInView="show"
+                  exit="hide"
+                  variants={rightIntroPictureVariants}>
                   <h2>👔 Expérience Professionnelle</h2>
                   <div className="p-4">
                       <h3>Full Stack Web Développeur</h3>
@@ -38,7 +71,7 @@ export default function Parcours() {
                           <p>05.2023 - 08.2023</p>
                       </span>
                   </div>
-              </div>
+              </motion.div>
           </section>
       </Background>
     );

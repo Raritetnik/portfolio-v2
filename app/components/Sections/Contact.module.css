@@ -1,0 +1,33 @@
+.sectionContact {
+    min-height: 300px;
+    padding: 3rem 0;
+}
+
+.sectionContact .content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 748px) {
+    .sectionContact {
+        padding: 3rem 2rem;
+    }
+    .sectionContact .content {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+.content form>label {
+    padding-bottom: 15px;
+}
+
+.imageProfil img {
+    border-radius: 72% 90% 32% 30% / 72% 42% 25% 43% ;
+    border: 5px solid white;
+}
+
+.imageProfil {
+
+}

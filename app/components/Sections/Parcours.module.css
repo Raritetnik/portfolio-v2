@@ -11,3 +11,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 748px) {
+    .sectionExperiences {
+        display: flex;
+        flex-direction: column;
+
+        padding: 3rem 1rem;
+    }
+}

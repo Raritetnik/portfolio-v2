@@ -33,6 +33,16 @@
   padding: 3rem 0;
 }
 
+@media screen and (max-width: 748px) {
+  .sectionBanner {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    padding: 3rem 1rem;
+  }
+}
+
 .sectionBanner>* {
   width: 100%;
 }
