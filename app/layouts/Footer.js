@@ -34,8 +34,8 @@ export default function Footer() {
                     <Image width="75" height="75" className="h-[75px] w-[75px] p-2 rounded-2xl bg-[#64D862]" src="https://img.icons8.com/ios/100/mail.png" alt="mail"/>
                     <span className="">
                         <h2>Contact</h2>
-                        <a href="tel:4386801683"><h3><b className="text-2xl">📞</b> (438) 680 - 1683</h3></a>
-                        <a href="tel:4386801683"><h3><b className="text-3xl">📨</b> mkodarenko@gmail.com</h3></a>
+                        <a href="tel:4386801683" target="_blank"><h3><b className="text-2xl">📞</b> (438) 680 - 1683</h3></a>
+                        <a href="mailto:mkodarenko@gmail.com" target="_blank"><h3><b className="text-3xl">📨</b> mkodarenko@gmail.com</h3></a>
                     </span>
                 </div>
                 <div className="flex gap-4 justify-center items-center">
@@ -43,8 +43,8 @@ export default function Footer() {
                     <span>
                         <h2>Réseaux</h2>
                         <span className="flex">
-                        <a href="https://www.linkedin.com/in/raritetnik/"><Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin"/></a>
-                        <a href="https://www.linkedin.com/in/raritetnik/"><Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/github--v1.png" alt="github--v1"/></a>
+                        <a href="https://www.linkedin.com/in/raritetnik/" target="_blank"><Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin"/></a>
+                        <a href="https://www.linkedin.com/in/raritetnik/" target="_blank"><Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/github--v1.png" alt="github--v1"/></a>
                         </span>
                     </span>
                 </div>

@@ -52,14 +52,14 @@ export default function Banner() {
                     <p className="pb-6">Je suis un <strong className="text-green-400 text-2xl">Développeur Web Full Stack</strong> compétent en développement ( et en design ), avec une passion pour concevoir des expériences utilisateur engageantes et divertissantes.</p>
                     <span className="flex flex-col lg:flex-row lg:items-center">
                         <div className="flex items-center">
-                            <a href="/assets/KuzminMykhaylo_FullStackDeveloper_CV.pdf">
+                            <a href="/assets/KuzminMykhaylo_FullStackDeveloper_CV.pdf" target="_blank">
                                 <Button>Télécharger CV</Button>
                             </a>
                             <i className="text-4xl">👈</i> ou
                             </div>
                         <div className="flex items-center">
                             <i className="text-4xl">👉</i>
-                            <a href="https://www.linkedin.com/in/raritetnik/">
+                            <a href="https://www.linkedin.com/in/raritetnik/" target="_blank">
                                 <Image width="96" height="96" id={styles.contactBTN} className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin"/>
                             </a>
                             <span>Écrivez-moi!</span>

@@ -44,7 +44,7 @@ export default function Projects() {
                         </span>
                     </div>
                     <div className={styles.redirectionBtns}>
-                        <a href="https://clubcuisinebcbg.com">
+                        <a href="https://clubcuisinebcbg.com" target="_blank">
                             <Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/internet--v1.png" alt="internet--v1"/>
                         </a>
                     </div>
@@ -79,10 +79,10 @@ export default function Projects() {
                         </span>
                     </div>
                     <div className={styles.redirectionBtns}>
-                        <a href="https://tristanbarbeau.com">
+                        <a href="https://tristanbarbeau.com" target="_blank">
                             <Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/internet--v1.png" alt="internet--v1"/>
                         </a>
-                        <a href="https://github.com/Raritetnik/tristan_barbeau">
+                        <a href="https://github.com/Raritetnik/tristan_barbeau" target="_blank">
                             <Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/github--v1.png" alt="github--v1"/>
                         </a>
                     </div>
@@ -111,7 +111,7 @@ export default function Projects() {
                         </span>
                     </div>
                     <div className={styles.redirectionBtns}>
-                        <a href="https://benoitsurvivaliste.com">
+                        <a href="https://benoitsurvivaliste.com" target="_blank">
                             <Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/internet--v1.png" alt="internet--v1"/>
                         </a>
                     </div>
@@ -149,7 +149,7 @@ export default function Projects() {
                         </span>
                     </div>
                     <div className={styles.redirectionBtns}>
-                        <a href="https://github.com/Raritetnik/Wine-Not_App">
+                        <a href="https://github.com/Raritetnik/Wine-Not_App" target="_blank">
                             <Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/github--v1.png" alt="github--v1"/>
                         </a>
                     </div>
