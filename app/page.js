@@ -18,7 +18,7 @@ export default function Home() {
 
       <Technologies/>
 
-      <Contact/>
+        {/*<Contact/>*/}
     </main>
   )
 }

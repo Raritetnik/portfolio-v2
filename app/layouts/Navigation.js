@@ -10,7 +10,7 @@ export default function Navigation() {
                     <a href="#parcours">À propos</a>
                     <a href="#technos">Technologies</a>
                     <a href="#projets">Mes projets</a>
-                    <a href="#contact">Contact</a>
+                    {/*<a href="#contact">Contact</a>*/}
                 </nav>
               </header>
         </div>
