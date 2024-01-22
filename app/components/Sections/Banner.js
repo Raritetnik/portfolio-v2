@@ -47,7 +47,7 @@ export default function Banner() {
                             whileInView="show"
                             exit="hide"
                             variants={leftIntroPictureVariants}>
-                    <h3 className={styles.bienvenu}>Salut <i className="text-4xl">👋</i>, <br/>Je m'appelle</h3>
+                    <h3 className={styles.bienvenu}>Salut <i className="text-4xl">👋</i>, <br/>Je m&#39;appelle</h3>
                     <h2 className="text-green-400 font-bold">Mykhaylo Kuzmin</h2>
                     <p className="pb-6">Je suis un <strong className="text-green-400 text-2xl">Développeur Web Full Stack</strong> compétent en développement ( et en design ), avec une passion pour concevoir des expériences utilisateur engageantes et divertissantes.</p>
                     <span>
