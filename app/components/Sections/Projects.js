@@ -122,8 +122,8 @@ export default function Projects() {
                                 exit="hide"
                                 variants={introPictureVariants}>
                     <div className={styles.img}>
-                        <Image src="/assets/WineNot_App.png" width={250} height={300} className="max-h-[300px] object-cover" alt="WineNot"/>
-                        <Image src="/assets/WineNot_App_2.png" width={250} height={300} className="max-h-[300px] object-cover" alt="WineNot"/>
+                        <Image src="/assets/WineNot_App.png" width={250} height={300} className="max-h-[300px] object-cover hidden md:block" alt="WineNot"/>
+                        <Image src="/assets/WineNot_App_2.png" width={250} height={300} className="max-h-[300px] object-cover block" alt="WineNot"/>
                     </div>
                     <div className={styles.articleDetails}>
                         <h3><b className="text-4xl">🍷</b>Wine Not Application</h3>

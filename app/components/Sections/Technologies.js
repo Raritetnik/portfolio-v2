@@ -92,7 +92,7 @@ export default function Technologies() {
                             variants={introPictureVariants}>
                 <Splide tag="div" className={styles.icons} options={{
                     type         : 'loop',
-                    gap          : '.5rem',
+                    gap          : '.3rem',
                     arrows       : false,
                     pagination   : false,
                     perPage      : 9,
