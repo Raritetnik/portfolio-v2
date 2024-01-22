@@ -56,3 +56,11 @@
   font-size: var(--font_size-BIGTITLE);
   font-weight: bolder;
 }
+#contactBTN {
+  transition: .3s linear;
+}
+
+
+#contactBTN:hover {
+  transform: scale(1.2);
+}
