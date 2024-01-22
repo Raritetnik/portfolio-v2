@@ -26,10 +26,10 @@ export default function Projects() {
                                 exit="hide"
                                 variants={introPictureVariants}>
                     <div className={styles.img} >
-                        <Image src="/assets/clubcuisine_bcbg.png" width={500} height={300} className="h-[300px] object-cover" alt="Club Cuisine BCBG"/>
+                        <Image src="/assets/clubcuisine_bcbg.png" width={500} height={300} className="h-[200px] md:h-[300px] object-cover" alt="Club Cuisine BCBG"/>
                     </div>
                     <div className={styles.articleDetails}>
-                        <h3><b className="text-4xl">👩🏼‍🍳</b>Club Cuisine BCBG</h3>
+                        <h3><b className="text-xl md:text-2xl lg:text-4xl">👩🏼‍🍳</b>Club Cuisine BCBG</h3>
                         <p>Plateforme commerciale spécialisée dans la conception sur mesure de cuisines et de salles de bains, réalisée par des designers et constructeurs professionnels</p>
                         <span>
                             <p>Technologies:</p>
@@ -55,10 +55,10 @@ export default function Projects() {
                                 exit="hide"
                                 variants={introPictureVariants}>
                     <div className={styles.img}>
-                        <Image src="/assets/tristan_realtor.png" width={500} height={300} className="h-[300px] object-cover" alt="Tristan Barbeau"/>
+                        <Image src="/assets/tristan_realtor.png" width={500} height={300} className="h-[200px] md:h-[300px] object-cover" alt="Tristan Barbeau"/>
                     </div>
                     <div className={styles.articleDetails}>
-                        <h3><b className="text-4xl">👨🏻‍💼</b>Realtor Tristan Barbeau</h3>
+                        <h3><b className="text-xl md:text-2xl lg:text-4xl">👨🏻‍💼</b>Realtor Tristan Barbeau</h3>
                         <p>Le site promotionnel des services immobiliers de Tristan Barbeau propose des offres spéciales, des consultations et des options de financement pour l&#39;acquisition de biens immobiliers.</p>
                         <span>
                             <p>Technologies:</p>
@@ -93,11 +93,11 @@ export default function Projects() {
                                 exit="hide"
                                 variants={introPictureVariants}>
                     <div className={styles.img}>
-                        <Image src="/assets/survivaliste_benoit.png" width={500} height={300} className="h-[300px] object-cover" alt="Benoit Survivaliste"/>
+                        <Image src="/assets/survivaliste_benoit.png" width={500} height={300} className="h-[200px] md:h-[300px] object-cover" alt="Benoit Survivaliste"/>
                     </div>
                     <div className={styles.articleDetails}>
-                        <h3><b className="text-4xl">🏕️</b>Benoit Survivaliste</h3>
-                        <p>Le blog personnel de Benoit Survivaliste, dédié à la survie et à l&#39;autonomie humaine, propose une variété d&#39;articles, de vidéos et offre également la possibilité de s&#39;abonner à des formations exclusives.</p>
+                        <h3><b className="text-xl md:text-2xl lg:text-4xl">🏕️</b>Benoit Survivaliste</h3>
+                        <p className="text-base">Le blog personnel de Benoit Survivaliste, dédié à la survie et à l&#39;autonomie humaine, propose une variété d&#39;articles, de vidéos et offre également la possibilité de s&#39;abonner à des formations exclusives.</p>
                         <span>
                             <p>Technologies:</p>
                             <span className={styles.technologies}>
@@ -122,8 +122,8 @@ export default function Projects() {
                                 exit="hide"
                                 variants={introPictureVariants}>
                     <div className={styles.img}>
-                        <Image src="/assets/WineNot_App.png" width={250} height={300} className="max-h-[300px] object-cover hidden md:block" alt="WineNot"/>
-                        <Image src="/assets/WineNot_App_2.png" width={250} height={300} className="max-h-[300px] object-cover block" alt="WineNot"/>
+                        <Image src="/assets/WineNot_App.png" width={250} height={300} className="h-[200px] md:max-h-[300px] object-cover hidden md:block" alt="WineNot"/>
+                        <Image src="/assets/WineNot_App_2.png" width={250} height={300} className="h-[200px] md:max-h-[300px] object-cover block" alt="WineNot"/>
                     </div>
                     <div className={styles.articleDetails}>
                         <h3><b className="text-4xl">🍷</b>Wine Not Application</h3>
