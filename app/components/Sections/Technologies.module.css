@@ -17,6 +17,10 @@
     .sectionTechnologies {
         padding: 3rem 2rem;
     }
+
+    .icons {
+        max-width: 100%;
+    }
 }
 
 .technologies {
