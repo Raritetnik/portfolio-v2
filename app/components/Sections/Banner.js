@@ -50,10 +50,20 @@ export default function Banner() {
                     <h3 className={styles.bienvenu}>Salut <i className="text-4xl">👋</i>, <br/>Je m&#39;appelle</h3>
                     <h2 className="text-green-400 font-bold">Mykhaylo Kuzmin</h2>
                     <p className="pb-6">Je suis un <strong className="text-green-400 text-2xl">Développeur Web Full Stack</strong> compétent en développement ( et en design ), avec une passion pour concevoir des expériences utilisateur engageantes et divertissantes.</p>
-                    <span className="flex items-center">
-                        <a href="/assets/KuzminMykhaylo_FullStackDeveloper_CV.pdf"><Button>Télécharger CV</Button></a><i className="text-4xl">👈</i> ou
-                        <i className="text-4xl">👉</i><a href="https://www.linkedin.com/in/raritetnik/"><Image width="96" height="96" id={styles.contactBTN} className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin"/></a>
-                        Écrivez-moi!
+                    <span className="flex flex-col lg:flex-row lg:items-center">
+                        <div className="flex items-center">
+                            <a href="/assets/KuzminMykhaylo_FullStackDeveloper_CV.pdf">
+                                <Button>Télécharger CV</Button>
+                            </a>
+                            <i className="text-4xl">👈</i> ou
+                            </div>
+                        <div className="flex items-center">
+                            <i className="text-4xl">👉</i>
+                            <a href="https://www.linkedin.com/in/raritetnik/">
+                                <Image width="96" height="96" id={styles.contactBTN} className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin"/>
+                            </a>
+                            <span>Écrivez-moi!</span>
+                        </div>
                     </span>
                 </motion.div>
             </section>
