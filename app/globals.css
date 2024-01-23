@@ -6,8 +6,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 :root {
   --font_size-TITLE: 1.3rem;
-  --font_size-TEXT: .7rem;
+  --font_size-phoneTITLE: 1.1rem;
+  --font_size-TEXT: 1rem;
+  --font_size-phoneTEXT: .9rem;
   --font_size-BIGTITLE: 2rem;
+  --font_size-phoneBIGTITLE: 1.6rem;
 
   --color_primary: #64D862;
   --color_secondary: #CE8126;
@@ -36,4 +39,16 @@ h2 {
 }
 h3 {
   font-size: var(--font_size-TITLE);
+}
+
+@media screen and (max-width: 748px) {
+  h3 {
+    font-size: var(--font_size-phoneTITLE);
+  }
+  h2 {
+    font-size: var(--font_size-phoneBIGTITLE);
+  }
+  p {
+    font-size: var(--font_size-phoneTEXT);
+  }
 }

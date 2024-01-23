@@ -12,7 +12,7 @@ export default function Navigation() {
                 <h3 id={styles.phoneInHeader}><span className="text-primary font-bold">Full Stack</span><br/> Web Développeur</h3>
                 <h3 className="hidden md:inline-block" id={styles.phoneInHeader}>☎️<a href="tel:4386801683">(438)680-1683</a></h3>
                 <nav className={styles.menu} onClick={() => setDropMenuIsOpen(!dropMenuIsOpen)}>
-                    <Image width={30} height={30} src="https://img.icons8.com/ios-filled/100/menu--v1.png" alt="menu--v1"/>
+                    <Image width={30} height={30} className="aspect-square w-[20px] lg:w-[30px] " src="https://img.icons8.com/ios-filled/100/menu--v1.png" alt="menu--v1"/>
                     <div className={`${styles.dropMenu} absolute right-0 ${dropMenuIsOpen ? styles.dropMenuOpen : styles.dropMenuClose}`}>
                         <ul className={styles.contenuDropMenu}>
                             <a href="#banner">Accueil</a>

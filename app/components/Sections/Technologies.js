@@ -17,6 +17,7 @@ const introPictureVariants = {
     },
 };
 export default function Technologies() {
+    console.log(window.screen.width);
     return(
         <Background>
             <section className={styles.sectionTechnologies} id="technos">
@@ -95,7 +96,7 @@ export default function Technologies() {
                     gap          : '.3rem',
                     arrows       : false,
                     pagination   : false,
-                    perPage      : 9,
+                    perPage      : (window.screen.width <= 748) ? 4 : ((window.screen.width <= 1024) ? 6 : 9),
                     perMove      : 1,
                     focus        : "center",
                     autoplay     : true,

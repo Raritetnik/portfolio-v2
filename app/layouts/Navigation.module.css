@@ -49,8 +49,8 @@ DROP MENU
     transition: all .2s linear;
     transform-origin: top;
 }
-.dropMenuOpen {
 
+.dropMenuOpen {
     transition: all .2s linear;
     transform: scaleY(1)
 }
@@ -93,7 +93,7 @@ DROP MENU
 @media screen and (max-width: 748px) {
     .navigation {
         display: flex;
-        padding: 1rem .7rem;
+        padding: .5rem .3rem;
     }
     .dropMenu {
         margin-top: calc(10px + 1rem + .7rem);

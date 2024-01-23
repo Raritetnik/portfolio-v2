@@ -58,9 +58,9 @@
 
 .tagWord {
     background: transparent;
-    border: 1px solid var(--color_primary);
+    border: 2px solid var(--color_primary);
     color: var(--color_primary);
-    padding: .1rem .3rem;
+    padding: .2rem .5rem;
     border-radius: 5px;
     white-space: nowrap;
 }
@@ -79,6 +79,12 @@
     .articleDetails {
         padding: 1rem .5rem;
     }
-
-
+    .tagWord {
+        background: transparent;
+        border: 1px solid var(--color_primary);
+        color: var(--color_primary);
+        padding: .1rem .3rem;
+        border-radius: 5px;
+        white-space: nowrap;
+    }
 }
