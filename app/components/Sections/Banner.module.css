@@ -37,9 +37,12 @@
   .sectionBanner {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
 
     padding: 3rem 1rem;
+  }
+  .imageProfil {
+    padding: 0 1rem;
   }
 }
 

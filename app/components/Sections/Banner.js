@@ -55,7 +55,7 @@ export default function Banner() {
                             <a href="/assets/KuzminMykhaylo_FullStackDeveloper_CV.pdf" target="_blank">
                                 <Button>Télécharger CV</Button>
                             </a>
-                            <i className="text-4xl">👈</i> ou
+                            <i className="text-4xl">👈</i><span>ou</span>
                             </div>
                         <div className="flex items-center">
                             <i className="text-4xl">👉</i>
