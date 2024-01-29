@@ -67,8 +67,15 @@ export default function Parcours() {
                   <div className="p-4">
                       <h3>Full Stack Web Développeur</h3>
                       <span className="justify-between flex">
-                          <p>Gofbee Inc, Montréal</p>
+                          <p>Gofbee Inc, Montréal(à distance)</p>
                           <p>05.2023 - 08.2023</p>
+                      </span>
+                  </div>
+                  <div className="p-4">
+                      <h3>Web Développeur</h3>
+                      <span className="justify-between flex">
+                          <p>leSurvivaliste Inc, Montréal(à distance)</p>
+                          <p>04.2022 - 05.2023</p>
                       </span>
                   </div>
               </motion.div>
