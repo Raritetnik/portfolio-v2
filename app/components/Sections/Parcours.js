@@ -74,7 +74,7 @@ export default function Parcours() {
                   <div className="p-4">
                       <h3>Web Développeur</h3>
                       <span className="justify-between flex">
-                          <p>leSurvivaliste Inc, Montréal(à distance)</p>
+                          <p>Le Survivaliste Inc, Montréal(à distance)</p>
                           <p>04.2022 - 05.2023</p>
                       </span>
                   </div>
