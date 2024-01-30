@@ -4,6 +4,7 @@
 
 #phoneInHeader {
     justify-self: center;
+    font-size: 1.3rem;
 }
 
 .sectionHeader {
@@ -14,14 +15,27 @@
     transition: all .5s ease-in-out;
 }
 .navigation {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
     align-items: center;
     white-space: nowrap;
     width: 1200px;
 
     position: relative;
 }
+
+.navigation>span{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.navigation>h1{
+    display: inline-flex;
+    flex-direction: column;
+    align-content: start;
+    justify-content: start;
+}
+
 
 .navigation a {
     font-size: 1.3rem;
@@ -93,6 +107,8 @@ DROP MENU
 @media screen and (max-width: 748px) {
     .navigation {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         padding: .5rem .3rem;
     }
     .dropMenu {
