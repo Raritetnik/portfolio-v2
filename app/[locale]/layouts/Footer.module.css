@@ -2,12 +2,15 @@
     background-color: #212121;
     display: flex;
     justify-content: center;
+
+    align-items: start;
     min-height: 200px;
 }
 
 .sectionFooter section {
     display: flex;
     justify-content: space-between;
+    align-items: start;
 
     max-width: 1200px;
     width: 100%;

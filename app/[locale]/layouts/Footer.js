@@ -23,23 +23,23 @@ export default function Footer({textes}) {
                 whileInView="show"
                 exit="hide"
                 variants={introPictureVariants}>
-                <div className="flex gap-4 justify-center items-center">
-                    <Image width="75" height="75" className="h-[75px] w-[75px] p-2 rounded-2xl bg-[#64D862]" src="https://img.icons8.com/ios-filled/100/000000/address--v1.png" alt="address--v1"/>
+                <div className="flex gap-4 justify-center">
+                    <Image width="75" height="75" className="h-[75px] w-[75px] mt-4 p-2 rounded-2xl bg-[#64D862]" src="https://img.icons8.com/ios-filled/100/000000/address--v1.png" alt="address--v1"/>
                     <span>
                         <h2>Localisation</h2>
                         <h3>{textes.town}, QC, Canada</h3>
                     </span>
                 </div>
-                <div className="flex gap-4 justify-center items-center">
-                    <Image width="75" height="75" className="h-[75px] w-[75px] p-2 rounded-2xl bg-[#64D862]" src="https://img.icons8.com/ios/100/mail.png" alt="mail"/>
+                <div className="flex gap-4 justify-center">
+                    <Image width="75" height="75" className="h-[75px] w-[75px] mt-4 p-2 rounded-2xl bg-[#64D862]" src="https://img.icons8.com/ios/100/mail.png" alt="mail"/>
                     <span className="">
                         <h2>Contact</h2>
                         <a href="tel:4386801683" target="_blank"><h3><b className="text-2xl">📞</b> (438) 680 - 1683</h3></a>
                         <a href="mailto:mkodarenko@gmail.com" target="_blank"><h3><b className="text-3xl">📨</b> mkodarenko@gmail.com</h3></a>
                     </span>
                 </div>
-                <div className="flex gap-4 justify-center items-center">
-                    <Image width="75" height="75" className="h-[75px] w-[75px] p-2 rounded-2xl bg-[#64D862]" src="https://img.icons8.com/ios/100/internet--v1.png" alt="internet--v1"/>
+                <div className="flex gap-4 justify-center">
+                    <Image width="75" height="75" className="h-[75px] w-[75px] mt-4 p-2 rounded-2xl bg-[#64D862]" src="https://img.icons8.com/ios/100/internet--v1.png" alt="internet--v1"/>
                     <span>
                         <h2>{textes.internet}</h2>
                         <span className="flex">
