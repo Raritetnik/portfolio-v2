@@ -15,7 +15,7 @@ const introPictureVariants = {
     },
 };
 
-export default function Footer() {
+export default function Footer({textes}) {
     return (
         <footer className={styles.sectionFooter}>
             <motion.section
@@ -27,7 +27,7 @@ export default function Footer() {
                     <Image width="75" height="75" className="h-[75px] w-[75px] p-2 rounded-2xl bg-[#64D862]" src="https://img.icons8.com/ios-filled/100/000000/address--v1.png" alt="address--v1"/>
                     <span>
                         <h2>Localisation</h2>
-                        <h3>Montréal, QC, Canada</h3>
+                        <h3>{textes.town}, QC, Canada</h3>
                     </span>
                 </div>
                 <div className="flex gap-4 justify-center items-center">
@@ -41,7 +41,7 @@ export default function Footer() {
                 <div className="flex gap-4 justify-center items-center">
                     <Image width="75" height="75" className="h-[75px] w-[75px] p-2 rounded-2xl bg-[#64D862]" src="https://img.icons8.com/ios/100/internet--v1.png" alt="internet--v1"/>
                     <span>
-                        <h2>Réseaux</h2>
+                        <h2>{textes.internet}</h2>
                         <span className="flex">
                         <a href="https://www.linkedin.com/in/raritetnik/" target="_blank"><Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/linkedin.png" alt="linkedin"/></a>
                         <a href="https://www.linkedin.com/in/raritetnik/" target="_blank"><Image width="96" height="96" className="h-[50px] w-[50px]" src="https://img.icons8.com/color/96/github--v1.png" alt="github--v1"/></a>

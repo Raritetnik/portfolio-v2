@@ -1,5 +1,5 @@
 'use client'
-import Background from "@/app/components/Background";
+import Background from "@/app/[locale]/components/Background";
 import styles from './Projects.module.css';
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -15,11 +15,11 @@ const introPictureVariants = {
     },
 };
 
-export default function Projects() {
+export default function Projects({textes}) {
     return(
         <Background>
             <section className={styles.sectionProjets} id="projets">
-                <h2>🗃️ Mes Projets</h2>
+                <h2>🗃️ {textes.projects}</h2>
                 <motion.article className={styles.articleProjet}
                                 initial="hide"
                                 whileInView="show"
@@ -30,7 +30,7 @@ export default function Projects() {
                     </div>
                     <div className={styles.articleDetails}>
                         <h3><b className="text-xl md:text-2xl lg:text-4xl">👩🏼‍🍳</b>Club Cuisine BCBG</h3>
-                        <p>Plateforme commerciale spécialisée dans la conception sur mesure de cuisines et de salles de bains, réalisée par des designers et constructeurs professionnels</p>
+                        <p>{textes.desc_bcbg}</p>
                         <span>
                             <p>Technologies:</p>
                             <span className={styles.technologies}>
@@ -59,7 +59,7 @@ export default function Projects() {
                     </div>
                     <div className={styles.articleDetails}>
                         <h3><b className="text-xl md:text-2xl lg:text-4xl">👨🏻‍💼</b>Realtor Tristan Barbeau</h3>
-                        <p>Le site promotionnel des services immobiliers de Tristan Barbeau propose des offres spéciales, des consultations et des options de financement pour l&#39;acquisition de biens immobiliers.</p>
+                        <p>{textes.desc_tristan}</p>
                         <span>
                             <p>Technologies:</p>
                             <span className={styles.technologies}>
@@ -97,7 +97,7 @@ export default function Projects() {
                     </div>
                     <div className={styles.articleDetails}>
                         <h3><b className="text-xl md:text-2xl lg:text-4xl">🏕️</b>Benoit Survivaliste</h3>
-                        <p className="text-base">Le blog personnel de Benoit Survivaliste, dédié à la survie et à l&#39;autonomie humaine, propose une variété d&#39;articles, de vidéos et offre également la possibilité de s&#39;abonner à des formations exclusives.</p>
+                        <p className="text-base">{textes.desc_survie}</p>
                         <span>
                             <p>Technologies:</p>
                             <span className={styles.technologies}>
@@ -127,7 +127,7 @@ export default function Projects() {
                     </div>
                     <div className={styles.articleDetails}>
                         <h3><b className="text-4xl">🍷</b>Wine Not Application</h3>
-                        <p>Une application électronique de gestion des celliers à vin en ligne, connectée à la SAAQ, permettant aux utilisateurs d&#39;ajouter, retirer, marquer leurs vins préférés, de suivre le statut de leurs bouteilles et d&#39;accéder facilement à leur collection en quelques clics, à tout moment.</p>
+                        <p>{textes.desc_winenot}</p>
                         <span>
                             <p>Technologies:</p>
                             <span className={styles.technologies}>

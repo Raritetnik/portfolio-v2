@@ -1,5 +1,5 @@
 'use client'
-import Background from "@/app/components/Background";
+import Background from "@/app/[locale]/components/Background";
 import styles from './Technologies.module.css';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
@@ -16,18 +16,18 @@ const introPictureVariants = {
         },
     },
 };
-export default function Technologies() {
+export default function Technologies({textes}) {
     return(
         <Background>
             <section className={styles.sectionTechnologies} id="technos">
-                <h2 className="pb-6">🗃️ Mes Technologies</h2>
+                <h2 className="pb-6">🗃️ {textes.technologies}</h2>
                 <motion.div className={styles.articles}
                             initial="hide"
                             whileInView="show"
                             exit="hide"
                             variants={introPictureVariants}>
                     <article>
-                        <h3>Front-end & Design Web</h3>
+                        <h3>{textes.front}</h3>
                         <div className={styles.technologies}>
                             <span>HTML</span>
                             <span>CSS</span>
@@ -47,7 +47,7 @@ export default function Technologies() {
                         </div>
                     </article>
                     <article>
-                        <h3>Back-end & Serveur</h3>
+                        <h3>{textes.back}</h3>
                         <div className={styles.technologies}>
                             <span>Laravel</span>
                             <span>PHP</span>
@@ -64,7 +64,7 @@ export default function Technologies() {
                         </div>
                     </article>
                     <article>
-                        <h3>Autre connaissances</h3>
+                        <h3>{textes.other}</h3>
                         <div className={styles.technologies}>
                             <span>Wordpress</span>
                             <span>Python</span>

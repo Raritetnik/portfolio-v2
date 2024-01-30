@@ -1,5 +1,5 @@
 'use client'
-import Background from "@/app/components/Background";
+import Background from "@/app/[locale]/components/Background";
 import styles from "./Parcours.module.css";
 import { motion } from "framer-motion";
 const leftIntroPictureVariants = {
@@ -26,7 +26,7 @@ const rightIntroPictureVariants = {
     },
 };
 
-export default function Parcours() {
+export default function Parcours({textes}) {
     return(
       <Background>
           <section className={styles.sectionExperiences} id="parcours">
@@ -35,16 +35,16 @@ export default function Parcours() {
                           whileInView="show"
                           exit="hide"
                           variants={leftIntroPictureVariants}>
-                  <h2>🎓 Éducation</h2>
+                  <h2>🎓 {textes.educ}</h2>
                   <div className="p-4">
-                      <h3>Conception et Développement des sites Web</h3>
+                      <h3>{textes.aec_name}</h3>
                       <span className="justify-between flex">
                           <p>AEC | Collège Maisonneuve</p>
                           <p>02.2021 - 08.2023</p>
                       </span>
                   </div>
                   <div className="p-4">
-                      <h3>Technique de développement des applications Web et mobiles</h3>
+                      <h3>{textes.dec_name}</h3>
                       <span className="justify-between flex">
                           <p>DEC | Collège Rosemont</p>
                           <p>2018 - 2020</p>
@@ -56,25 +56,25 @@ export default function Parcours() {
                   whileInView="show"
                   exit="hide"
                   variants={rightIntroPictureVariants}>
-                  <h2>👔 Expérience Professionnelle</h2>
+                  <h2>👔 {textes.work_exp}</h2>
                   <div className="p-4">
-                      <h3>Full Stack Web Développeur</h3>
+                      <h3>{textes.profile}</h3>
                       <span className="justify-between flex">
                           <p>Club Cuisine BCBG, Laval</p>
-                          <p>08.2023 - maintenant</p>
+                          <p>08.2023 - {textes.now}</p>
                       </span>
                   </div>
                   <div className="p-4">
-                      <h3>Full Stack Web Développeur</h3>
+                      <h3>{textes.profile}</h3>
                       <span className="justify-between flex">
-                          <p>Gofbee Inc, Montréal(à distance)</p>
+                          <p>Gofbee Inc, Montréal({textes.remote})</p>
                           <p>05.2023 - 08.2023</p>
                       </span>
                   </div>
                   <div className="p-4">
-                      <h3>Web Développeur</h3>
+                      <h3>{textes.profile_2}</h3>
                       <span className="justify-between flex">
-                          <p>Le Survivaliste Inc, Montréal(à distance)</p>
+                          <p>Le Survivaliste Inc, Montréal({textes.remote})</p>
                           <p>04.2022 - 05.2023</p>
                       </span>
                   </div>

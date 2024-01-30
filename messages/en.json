@@ -1,0 +1,51 @@
+{
+  "Index": {
+    "title": "Hello world!!",
+    "subtitle": "How is it going?",
+    "alertMessage": "Something went wrong!"
+  },
+  "Banner": {
+    "hello": "Hi",
+    "name": "My name is",
+    "iam": "I'm a ",
+    "profile": "Full Stack Web Developer",
+    "about": "proficient in development (and design), with a passion for creating engaging and entertaining user experiences.",
+    "download": "Download CV",
+    "or": "or",
+    "message_me": "Message me!"
+  },
+  "Parcours": {
+    "educ": "Education",
+    "aec_name": "Conception and Development of Websites",
+    "dec_name": "Web and Mobile Application Development Techniques",
+    "work_exp": "Professional Experience",
+    "profile": "Full Stack Web Developer",
+    "profile_2": "Web Developer",
+    "remote": "remote",
+    "now": "today"
+  },
+  "Projects": {
+    "projects": "My projects",
+    "desc_bcbg": "Specialized commercial platform for custom kitchen and bathroom design, carried out by professional designers and builders",
+    "desc_tristan": "Tristan Barbeau's real estate services promotional website offers special deals, consultations, and financing options for property acquisition.",
+    "desc_survie": "Benoit Survivalist's personal blog, dedicated to survival and human autonomy, offers a variety of articles, videos, and also provides the opportunity to subscribe to exclusive training.",
+    "desc_winenot": "An online wine cellar management electronic application, connected to the SAQ, allowing users to add, remove, label their favorite wines, track the status of their bottles, and easily access their collection with just a few clicks, anytime."
+  },
+  "Technologies": {
+    "technologies": "My Skills",
+    "front": "Front-end & Web Design",
+    "back": "Back-end & Server",
+    "other": "Other skills"
+  },
+  "Navbar": {
+    "title": "Developer",
+    "about": "About me",
+    "exper": "My Experiences",
+    "skills": "My Skills",
+    "projects": "My Projects"
+  },
+  "Footer":{
+    "town": "Montreal",
+    "internet": "Networks"
+  }
+}

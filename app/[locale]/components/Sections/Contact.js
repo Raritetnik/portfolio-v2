@@ -1,7 +1,7 @@
 'use client'
 import styles from './Contact.module.css';
-import Background from "@/app/components/Background";
-import Button from "@/app/components/Button";
+import Background from "@/app/[locale]/components/Background";
+import Button from "@/app/[locale]/components/Button";
 import Image from "next/image";
 import { motion } from "framer-motion";
 const introPictureVariants = {
@@ -28,7 +28,7 @@ const leftIntroPictureVariants = {
         },
     },
 };
-export default function Contact() {
+export default function Contact({textes}) {
     return (
         <Background>
             <section className={styles.sectionContact} id="contact">

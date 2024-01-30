@@ -1,0 +1,51 @@
+{
+  "Index": {
+    "title": "salut world!!",
+    "subtitle": "comment ca va?",
+    "alertMessage": "Ca va pas!"
+  },
+  "Banner": {
+    "hello": "Salut",
+    "name": "Je m'appelle",
+    "iam": "Je suis un ",
+    "profile": "Développeur Web Full Stack",
+    "about": "compétent en développement ( et en design ), avec une passion pour concevoir des expériences utilisateur engageantes et divertissantes.",
+    "download": "Télécharger CV",
+    "or": "ou",
+    "message_me": "Écrivez-moi!"
+  },
+  "Parcours": {
+    "educ": "Éducation",
+    "aec_name": "Conception et Développement des sites Web",
+    "dec_name": "Technique de développement des applications Web et mobiles",
+    "work_exp": "Expérience Professionnelle",
+    "profile": "Développeur Web Full Stack",
+    "profile_2": "Web Développeur",
+    "remote": "à distance'",
+    "now": "maintenant"
+  },
+  "Projects": {
+    "projects": "Mes Projets",
+    "desc_bcbg": "Plateforme commerciale spécialisée dans la conception sur mesure de cuisines et de salles de bains, réalisée par des designers et constructeurs professionnels",
+    "desc_tristan": "Le site promotionnel des services immobiliers de Tristan Barbeau propose des offres spéciales, des consultations et des options de financement pour l'acquisition de biens immobiliers.",
+    "desc_survie": "Le blog personnel de Benoit Survivaliste, dédié à la survie et à l'autonomie humaine, propose une variété d'articles, de vidéos et offre également la possibilité de s'abonner à des formations exclusives.",
+    "desc_winenot": "Une application électronique de gestion des celliers à vin en ligne, connectée à la SAQ, permettant aux utilisateurs d'ajouter, retirer, marquer leurs vins préférés, de suivre le statut de leurs bouteilles et d'accéder facilement à leur collection en quelques clics, à tout moment."
+  },
+  "Technologies": {
+    "technologies": "Mes compétences",
+    "front": "Front-end et Design Web",
+    "back": "Back-end et Serveur",
+    "other": "Autres compétences"
+  },
+  "Navbar": {
+    "title": "Développeur",
+    "about": "À propos",
+    "exper": "Mes Experiences",
+    "skills": "Mes Compétences",
+    "projects": "Mes Projets"
+  },
+  "Footer":{
+    "town": "Montréal",
+    "internet": "Réseaux"
+  }
+}
