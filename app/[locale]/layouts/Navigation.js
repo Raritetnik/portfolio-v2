@@ -10,7 +10,7 @@ export default function Navigation({ textes }) {
     return (
         <div className={styles.sectionHeader}>
               <header className={styles.navigation}>
-                <h1 className="text-lg lg:text-2xl"><span className=" text-primary font-bold">Full Stack</span><br/><span>Web {textes.title}</span></h1>
+                <h1 className="text-lg lg:text-2xl flex flex-col" ><span className=" text-primary font-bold">Full Stack</span><span>Web {textes.title}</span></h1>
                 <h3 className="hidden md:inline-block" id={styles.phoneInHeader}>☎️<a href="tel:4386801683">(438)680-1683</a></h3>
                 <span className="flex items-center">
                 <LangSwitcher/>
