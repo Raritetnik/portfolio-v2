@@ -35,6 +35,7 @@ export default function Projects({textes}) {
                             <p>Technologies:</p>
                             <span className={styles.technologies}>
                                 <span className={styles.tagWord}>Wordpress</span>
+                                <span className={styles.tagWord}>Elementor</span>
                                 <span className={styles.tagWord}>PHP</span>
                                 <span className={styles.tagWord}>JavaScript</span>
                                 <span className={styles.tagWord}>Elementor</span>
@@ -102,6 +103,8 @@ export default function Projects({textes}) {
                             <p>Technologies:</p>
                             <span className={styles.technologies}>
                                 <span className={styles.tagWord}>Wordpress</span>
+                                <span className={styles.tagWord}>Elementor</span>
+                                <span className={styles.tagWord}>WooCommerce</span>
                                 <span className={styles.tagWord}>PHP</span>
                                 <span className={styles.tagWord}>JavaScript</span>
                                 <span className={styles.tagWord}>Elementor</span>

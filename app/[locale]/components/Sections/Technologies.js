@@ -41,6 +41,7 @@ export default function Technologies({textes}) {
                             <span>Bootstrap</span>
                             <span>Tailwind CSS</span>
                             <span>Angular</span>
+                            <span>Elementor</span>
                             <span>Figma</span>
                             <span>Photoshop</span>
                             <span>Illustrator</span>
@@ -61,6 +62,8 @@ export default function Technologies({textes}) {
                             <span>Twig</span>
                             <span>Java</span>
                             <span>RESTful API</span>
+                            <span>WordPress</span>
+                            <span>WooCommerce</span>
                         </div>
                     </article>
                     <article>
