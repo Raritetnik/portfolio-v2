@@ -65,6 +65,9 @@ export default function Banner({textes}) {
                             <span>{textes.message_me}</span>
                         </div>
                     </span>
+                    <p className="flex items-center text-xl"><
+                        b className="text-4xl">📧</b> <a href="mailto:mkodarenko@gmail.com">mkodarenko@gmail.com</a>
+                    </p>
                 </motion.div>
             </section>
         </Background>
