@@ -32,6 +32,10 @@ body {
   background-color: #121212;
   font-family: 'Poppins', sans-serif;
   transition: all .3s ease-in-out;
+  background-image: url("bg_greens.webp");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: soft-light;
 }
 
 h2 {
