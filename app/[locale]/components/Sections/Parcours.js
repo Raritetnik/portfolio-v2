@@ -40,7 +40,7 @@ export default function Parcours({textes}) {
                       <h3>{textes.aec_name}</h3>
                       <span className="justify-between flex">
                           <p>AEC | Collège Maisonneuve</p>
-                          <p>02.2021 - 08.2023</p>
+                          <p className="te">02.2021 - 08.2023</p>
                       </span>
                   </div>
                   <div className="p-4">
@@ -48,6 +48,13 @@ export default function Parcours({textes}) {
                       <span className="justify-between flex">
                           <p>DEC | Collège Rosemont</p>
                           <p>2018 - 2020</p>
+                      </span>
+                  </div>
+                  <div className="p-4">
+                      <h3>{textes.java_name}</h3>
+                      <span className="justify-between flex">
+                          <p>JavaRush Online Courses</p>
+                          <p>2022 - 2024</p>
                       </span>
                   </div>
               </motion.div>
@@ -61,7 +68,7 @@ export default function Parcours({textes}) {
                       <h3>{textes.profile}</h3>
                       <span className="justify-between flex">
                           <p>Club Cuisine BCBG, Laval</p>
-                          <p>08.2023 - {textes.now}</p>
+                          <p>08.2023 - 03.2024</p>
                       </span>
                   </div>
                   <div className="p-4">
